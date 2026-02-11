@@ -6,8 +6,8 @@ import { Elements } from "@stripe/react-stripe-js";
 import { FiShoppingCart } from "react-icons/fi";
 
 // These components should be created in Task 4
-import PaymentSuccess from "@/components/PaymentSuccess";
-import PaymentForm from "@/components/PaymentForm";
+import PaymentSuccess from "@/src/app/api/components/PaymentSuccess";
+import PaymentForm from "@/src/app/api/components/PaymentForm";
 
 // Make sure to place your publishable key in your .env.local file
 const stripePromise = loadStripe(
